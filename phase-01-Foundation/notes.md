@@ -14,4 +14,5 @@
 - You understand the role of JDK and JVM
 
 ## My Notes
-(Add your learning notes here...)
+### What is Java
+- 
