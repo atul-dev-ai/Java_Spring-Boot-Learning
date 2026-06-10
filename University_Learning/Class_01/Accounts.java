@@ -1,4 +1,4 @@
-package University_Learning.Class01;
+package University_Learning.Class_01;
 
 public class Accounts {
     private int accNo;
@@ -37,20 +37,20 @@ public class Accounts {
         balance = balance - amount;
     }
 
-    // public void display() {
-    //     System.out.println("Account No: " + accNo);
-    //     System.out.println(("Title: " + title));
-    //     System.out.println("Balance: " + balance);
-    // }
-
     public static void main(String[] args) {
-        System.out.println("Account No: " + accNo);
-        System.out.println(("Title: " + title));
-        System.out.println("Balance: " + balance);
+        Accounts acc = new Accounts();
+
+        acc.setAccNo(1000101);
+        acc.setTitle("Atull Paul");
+        acc.setBalance(500000);
+
+        System.out.println("Account No: " + acc.getAccNo());   
+        System.out.println("Title: " + acc.getTitle());
+        System.out.println("Balance: " + acc.getBalance());
     }
 
-
 }
+
 // public void display() {
     // System.out.println("Account No: " + accNo);
     // System.out.println("Title: " + title);
