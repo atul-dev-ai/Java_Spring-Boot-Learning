@@ -1,4 +1,4 @@
-// package phase-02-variables-data-types.practice;
+package phase_02_variables_data_types.practice;
 
 public class checkVari {
         public static void main(String[] args) {
