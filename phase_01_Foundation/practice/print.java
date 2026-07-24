@@ -7,6 +7,6 @@ public class print{
         System.out.print("Atul Paul");
     }
 
-    
+    // println use korle new line new line kore output dekhabe ar sudo print dile ek line e output show korbe.
     
 }
