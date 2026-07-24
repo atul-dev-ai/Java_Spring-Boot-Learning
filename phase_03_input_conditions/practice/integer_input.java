@@ -16,7 +16,8 @@ public class integer_input {
 
         System.out.print("Enter Your Full name: ");
         String fullname = input.next();
-        System.out.println(fullname);
+        input.nextLine(); // consume the leftover newline character after next()
+        System.out.println(fullname); // space er porer part ta print korbe na, karone next() method space er porer part ta ignore kore.
 
         System.out.print("Enter your favorite food name: ");
         String food = input.nextLine();
