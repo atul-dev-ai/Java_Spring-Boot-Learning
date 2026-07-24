@@ -13,5 +13,6 @@ public class division {
         double c = 10;
         double d = 3;
         System.out.println(c / d);
+        // ekhane 3.333 something answer ashbe karon eta double type.
     }
 }
