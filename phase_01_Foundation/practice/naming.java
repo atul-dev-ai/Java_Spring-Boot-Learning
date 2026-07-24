@@ -1,5 +1,9 @@
 public class naming {
-    
+        public static void main(String[] args) {
+        System.out.println("Ankit Paul");
+        System.err.println("Atul\nPaul");
+        System.out.println("My name is \"Atul Paul\"");
+    }
 }
 /* 
 Naming convention in Java:
