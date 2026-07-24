@@ -14,5 +14,9 @@ public class multiple_input {
         double height = input.nextDouble();
 
         System.out.println("Hello, " + name + "! your age is: " + age + " and your height is: " + height);
+
+        // better output
+        System.out.printf("Hello, %s! Your age is: %d and your height is: %.2f%n", name, age, height);
+        input.close();
     }
 }
