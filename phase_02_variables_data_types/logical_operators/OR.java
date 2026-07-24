@@ -1,4 +1,4 @@
-package phase_02_variables_data_types.operators;
+package phase_02_variables_data_types.logical_operators;
 
 public class OR {
     public static void main(String[] args) {
