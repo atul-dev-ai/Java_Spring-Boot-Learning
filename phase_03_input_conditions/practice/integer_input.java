@@ -5,11 +5,22 @@ import java.util.Scanner;
 public class integer_input {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-        System.out.println("Enter your age: ");
-
+        System.out.print("Enter your name: ");
+        String name = input.nextLine();
+        System.out.println("Hello, " + name + "!");
+        System.out.print("Enter your age: ");
         int age = input.nextInt(); // nextInt() method takes integer input from the user.
         System.out.println("You are " + age + " years old.");
-        input.close(); // Closing the scanner to prevent resource leaks.
+        // consume leftover newline after nextInt()
+        input.nextLine();
+
+        System.out.print("Enter Your Full name: ");
+        String fullname = input.next();
+        System.out.println(fullname);
+
+        System.out.print("Enter your favorite food name: ");
+        String food = input.nextLine();
+        System.out.println(food);
+        input.close(); // close once at the end
     }
 }
