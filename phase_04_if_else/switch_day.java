@@ -25,6 +25,9 @@ public class switch_day {
             case 7:
                 System.out.println("Friday");
                 break;
+
+            default: 
+                System.out.println("Invalid day");
         }
     }
 }

@@ -33,5 +33,6 @@ public class grade_calculator {
         else {
             System.out.println("Invalid marks");
         }
+        input.close();
     }
 }
