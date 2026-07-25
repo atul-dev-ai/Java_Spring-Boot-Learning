@@ -11,5 +11,6 @@ public class if_age {
         else {
             System.out.println("You are not eligibel for drinking");
         }
+        input.close();
     }
 }
