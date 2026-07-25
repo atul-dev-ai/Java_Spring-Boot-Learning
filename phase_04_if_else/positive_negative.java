@@ -15,5 +15,6 @@ public class positive_negative {
         else {
             System.out.println("This number is negative.");
         }
+        input.close();
     }
 }
