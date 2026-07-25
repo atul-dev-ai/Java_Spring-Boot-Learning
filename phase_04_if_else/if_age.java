@@ -6,7 +6,7 @@ public class if_age {
         System.out.print("Enter your age: ");
         int age = input.nextInt();
         if (age >= 18) {
-            System.out.println("You are eligibel for drinking");
+            System.out.println("You are eligible for drinking");
         }
         else {
             System.out.println("You are not eligibel for drinking");
