@@ -20,6 +20,6 @@ public class while_loop {
                 System.out.println("Wrong password");
                 break;
             }
-        }
+        }input.close();
     }
 }
